@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size theo ký tự trong từng trang,500,50,document_id/source/page/printed_page/chapter/section/page_type,không,openai text-embedding-3-small (1536),Baseline: cắt cố định dễ tách đôi evidence nên Hit@3 thấp hơn B,9/18,14/18,4/7,7/7,226 chunk; q21 trượt vì evidence bị chia qua 2 chunk
+B,by_paragraph theo heading/Example/Theorem/Definition trong từng trang,max 1000 (min 250),0,giống A,không,openai text-embedding-3-small (1536),Giữ trọn khối logic nên evidence nằm gọn trong 1 chunk,8/18,16/18,4/7,7/7,144 chunk; q06 trượt vì lời giải sang trang sau
+C,giống B,max 1000 (min 250),0,giống A,có: chapter/section chỉ cho câu có filter,openai text-embedding-3-small (1536),Filter phạm vi loại chunk lệch chương/mục nên tăng Hit@1 cho câu có filter,9/18,16/18,4/7,7/7,Được chọn trên dev; dùng lại vector của B; q24 lên hạng 1 nhờ filter section=3.2

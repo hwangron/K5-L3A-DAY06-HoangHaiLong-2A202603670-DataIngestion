@@ -1,5 +1,33 @@
 # Day 06 · Data Ingestion Engineering
 
+## Bài làm: cách chạy lại
+
+**Corpus:** OpenStax *Calculus Volume 1*, các mục 2.3, 2.4, 3.1, 3.2 (67 trang PDF). **Embedding:** OpenAI `text-embedding-3-small` (1536 chiều). **Vector store:** PostgreSQL 16 + pgvector 0.8.7 (Docker), cosine, exact search.
+
+Chạy từ thư mục `starter/` (Windows PowerShell; Python 3.14):
+
+```bash
+python -m venv .venv; .venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+Copy-Item .env.example .env        # điền OPENAI_API_KEY
+docker compose -p day6_student_starter up -d --wait
+mkdir data/raw; curl.exe -L -o data/raw/CalculusVolume1.pdf https://assets.openstax.org/oscms-prodcms/media/documents/CalculusVolume1-OP.pdf
+python -m src.run prepare          # PDF -> ../data/pages.jsonl, ../data/manifest.json
+python -m src.run validate         # kiểm benchmark/questions.json
+python -m src.run ingest           # chunk A/B/C, embed, lưu pgvector (chạy lại không trùng)
+python -m src.run evaluate --split dev
+python -m src.run evaluate --split test
+python -m src.run audit-prep       # mẫu coherence + kiểm metadata
+```
+
+Kiểm tra database: `python scripts/check_setup.py` (cần `psycopg`) hoặc `python scripts/check_setup_pg8000.py` (cùng chức năng, dùng khi `psycopg` bị chặn).
+
+- **Driver:** pipeline dùng `pg8000` thay `psycopg`, vì Windows Smart App Control chặn DLL của `psycopg-binary` trên máy làm bài.
+- **Vị trí file:** code ở [starter/src/](starter/src/), cấu hình ở [starter/config.json](starter/config.json), benchmark ở [benchmark/](benchmark/), kết quả ở [results/](results/), báo cáo ở [report/individual/](report/individual/).
+- **Chi phí:** khoảng $0,0013 cho toàn bộ embedding (62,7k token).
+
+---
+
 **Lab cá nhân** · **4 giờ** · **Dữ liệu tự chọn**
 
 Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, rồi đo xem cách chuẩn bị dữ liệu nào hiệu quả nhất.

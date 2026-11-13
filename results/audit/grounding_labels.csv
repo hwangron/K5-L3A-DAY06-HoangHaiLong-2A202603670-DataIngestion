@@ -1,0 +1,22 @@
+question_id,strategy,score,reason
+q09,A,2,r1 có tên Archimedes và câu về đa giác nội tiếp
+q09,B,2,r1 có tên Archimedes và câu về đa giác nội tiếp
+q09,C,2,Giống B (không có filter)
+q12,A,2,r3 có giới hạn một phía ±∞ và kết luận infinite discontinuity; r1 có đề
+q12,B,2,r1 có giới hạn một phía ±∞ và kết luận; r2 có đề
+q12,C,2,Giống B: filter chapter=2 không đổi top-3
+q14,A,2,r1 có đủ phát biểu Theorem 2.9
+q14,B,2,r1 có đủ phát biểu Theorem 2.9
+q14,C,2,Giống B (không có filter)
+q16,A,2,r1 có "No" + lý do + phản ví dụ (x−1)^2; đề bị tách sang mảnh r2
+q16,B,2,r3 có câu trả lời và phản ví dụ; r1 có đề đầy đủ
+q16,C,2,Giống B (không có filter)
+q19,A,2,r1 có cả 2 công thức 3.5 và 3.6 kèm điều kiện "provided this limit exists"
+q19,B,2,r1 có cả 2 công thức kèm điều kiện
+q19,C,2,Giống B (không có filter)
+q20,A,2,r3 có đáp án −1.6°F per hour; r1 có hàm T(t) và lý do midnight = t=3
+q20,B,2,r2 có trọn lời giải và đáp án; r1 có đề
+q20,C,2,Giống B (không có filter)
+q23,A,2,r3 có lý do (độ dốc trái/phải khác nhau); r1 nói |x| liên tục nhưng không khả vi
+q23,B,2,r2 có tóm tắt lý do + góc nhọn; r3 có phép tính −1 và 1
+q23,C,2,Giống B: filter section=3.2 không đổi top-3

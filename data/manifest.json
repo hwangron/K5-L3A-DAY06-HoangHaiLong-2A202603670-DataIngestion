@@ -1,0 +1,533 @@
+{
+  "source_id": "openstax-calc1",
+  "title": "Calculus Volume 1 (OpenStax)",
+  "authors": "Gilbert Strang, Edwin \"Jed\" Herman et al.",
+  "publisher": "OpenStax, Rice University",
+  "source_path_or_url": "https://assets.openstax.org/oscms-prodcms/media/documents/CalculusVolume1-OP.pdf",
+  "local_path": "starter/data/raw/CalculusVolume1.pdf",
+  "license_or_permission": "CC BY-NC-SA 4.0 (PDF page 4). Non-commercial lab use with attribution; extracted text in data/pages.jsonl keeps the required attribution line.",
+  "attribution": "Download for free at https://openstax.org/details/books/calculus-volume-1.",
+  "version": "2018 print, PDF modified 2018-08-15 (PDF metadata)",
+  "accessed_at": "2026-11-13",
+  "physical_pages_in_pdf": 873,
+  "page_numbering": "page = physical PDF page (1-based); printed_page = number printed in the running header",
+  "counting_rule": "All pages of sections 2.3, 2.4, 3.1, 3.2 taken from the PDF outline. A page counts if it has >= 200 normalized chars. Cover, TOC, glossary, chapter-review pages are not included. Exercise pages are counted separately (page_type=exercises).",
+  "sections": [
+    {
+      "chapter": 2,
+      "chapter_title": "Limits",
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "start_page": 168,
+      "end_page": 186
+    },
+    {
+      "chapter": 2,
+      "chapter_title": "Limits",
+      "section": "2.4",
+      "section_title": "Continuity",
+      "start_page": 187,
+      "end_page": 201
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "Derivatives",
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "start_page": 222,
+      "end_page": 239
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "Derivatives",
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "start_page": 240,
+      "end_page": 254
+    }
+  ],
+  "pages_counted": 67,
+  "pages_text": 53,
+  "pages_exercises": 14,
+  "pages": [
+    {
+      "page": 168,
+      "printed_page": 160,
+      "section": "2.3",
+      "page_type": "text",
+      "chars": 1753
+    },
+    {
+      "page": 169,
+      "printed_page": 161,
+      "section": "2.3",
+      "page_type": "text",
+      "chars": 1567
+    },
+    {
+      "page": 170,
+      "printed_page": 162,
+      "section": "2.3",
+      "page_type": "text",
+      "chars": 1736
+    },
+    {
+      "page": 171,
+      "printed_page": 163,
+      "section": "2.3",
+      "page_type": "text",
+      "chars": 1072
+    },
+    {
+      "page": 172,
+      "printed_page": 164,
+      "section": "2.3",
+      "page_type": "text",
+      "chars": 1486
+    },
+    {
+      "page": 173,
+      "printed_page": 165,
+      "section": "2.3",
+      "page_type": "text",
+      "chars": 1105
+    },
+    {
+      "page": 174,
+      "printed_page": 166,
+      "section": "2.3",
+      "page_type": "text",
+      "chars": 956
+    },
+    {
+      "page": 175,
+      "printed_page": 167,
+      "section": "2.3",
+      "page_type": "text",
+      "chars": 1353
+    },
+    {
+      "page": 176,
+      "printed_page": 168,
+      "section": "2.3",
+      "page_type": "text",
+      "chars": 1080
+    },
+    {
+      "page": 177,
+      "printed_page": 169,
+      "section": "2.3",
+      "page_type": "text",
+      "chars": 960
+    },
+    {
+      "page": 178,
+      "printed_page": 170,
+      "section": "2.3",
+      "page_type": "text",
+      "chars": 1226
+    },
+    {
+      "page": 179,
+      "printed_page": 171,
+      "section": "2.3",
+      "page_type": "text",
+      "chars": 1339
+    },
+    {
+      "page": 180,
+      "printed_page": 172,
+      "section": "2.3",
+      "page_type": "text",
+      "chars": 984
+    },
+    {
+      "page": 181,
+      "printed_page": 173,
+      "section": "2.3",
+      "page_type": "text",
+      "chars": 806
+    },
+    {
+      "page": 182,
+      "printed_page": 174,
+      "section": "2.3",
+      "page_type": "text",
+      "chars": 249
+    },
+    {
+      "page": 183,
+      "printed_page": 175,
+      "section": "2.3",
+      "page_type": "text",
+      "chars": 1668
+    },
+    {
+      "page": 184,
+      "printed_page": 176,
+      "section": "2.3",
+      "page_type": "exercises",
+      "chars": 1566
+    },
+    {
+      "page": 185,
+      "printed_page": 177,
+      "section": "2.3",
+      "page_type": "exercises",
+      "chars": 727
+    },
+    {
+      "page": 186,
+      "printed_page": 178,
+      "section": "2.3",
+      "page_type": "exercises",
+      "chars": 1244
+    },
+    {
+      "page": 187,
+      "printed_page": 179,
+      "section": "2.4",
+      "page_type": "text",
+      "chars": 1864
+    },
+    {
+      "page": 188,
+      "printed_page": 180,
+      "section": "2.4",
+      "page_type": "text",
+      "chars": 926
+    },
+    {
+      "page": 189,
+      "printed_page": 181,
+      "section": "2.4",
+      "page_type": "text",
+      "chars": 1428
+    },
+    {
+      "page": 190,
+      "printed_page": 182,
+      "section": "2.4",
+      "page_type": "text",
+      "chars": 682
+    },
+    {
+      "page": 191,
+      "printed_page": 183,
+      "section": "2.4",
+      "page_type": "text",
+      "chars": 1396
+    },
+    {
+      "page": 192,
+      "printed_page": 184,
+      "section": "2.4",
+      "page_type": "text",
+      "chars": 1738
+    },
+    {
+      "page": 193,
+      "printed_page": 185,
+      "section": "2.4",
+      "page_type": "text",
+      "chars": 1192
+    },
+    {
+      "page": 194,
+      "printed_page": 186,
+      "section": "2.4",
+      "page_type": "text",
+      "chars": 2381
+    },
+    {
+      "page": 195,
+      "printed_page": 187,
+      "section": "2.4",
+      "page_type": "text",
+      "chars": 1154
+    },
+    {
+      "page": 196,
+      "printed_page": 188,
+      "section": "2.4",
+      "page_type": "text",
+      "chars": 2031
+    },
+    {
+      "page": 197,
+      "printed_page": 189,
+      "section": "2.4",
+      "page_type": "text",
+      "chars": 968
+    },
+    {
+      "page": 198,
+      "printed_page": 190,
+      "section": "2.4",
+      "page_type": "text",
+      "chars": 664
+    },
+    {
+      "page": 199,
+      "printed_page": 191,
+      "section": "2.4",
+      "page_type": "exercises",
+      "chars": 2093
+    },
+    {
+      "page": 200,
+      "printed_page": 192,
+      "section": "2.4",
+      "page_type": "exercises",
+      "chars": 2441
+    },
+    {
+      "page": 201,
+      "printed_page": 193,
+      "section": "2.4",
+      "page_type": "exercises",
+      "chars": 2588
+    },
+    {
+      "page": 222,
+      "printed_page": 214,
+      "section": "3.1",
+      "page_type": "text",
+      "chars": 1911
+    },
+    {
+      "page": 223,
+      "printed_page": 215,
+      "section": "3.1",
+      "page_type": "text",
+      "chars": 1676
+    },
+    {
+      "page": 224,
+      "printed_page": 216,
+      "section": "3.1",
+      "page_type": "text",
+      "chars": 1273
+    },
+    {
+      "page": 225,
+      "printed_page": 217,
+      "section": "3.1",
+      "page_type": "text",
+      "chars": 1005
+    },
+    {
+      "page": 226,
+      "printed_page": 218,
+      "section": "3.1",
+      "page_type": "text",
+      "chars": 1117
+    },
+    {
+      "page": 227,
+      "printed_page": 219,
+      "section": "3.1",
+      "page_type": "text",
+      "chars": 1365
+    },
+    {
+      "page": 228,
+      "printed_page": 220,
+      "section": "3.1",
+      "page_type": "text",
+      "chars": 1042
+    },
+    {
+      "page": 229,
+      "printed_page": 221,
+      "section": "3.1",
+      "page_type": "text",
+      "chars": 726
+    },
+    {
+      "page": 230,
+      "printed_page": 222,
+      "section": "3.1",
+      "page_type": "text",
+      "chars": 1637
+    },
+    {
+      "page": 231,
+      "printed_page": 223,
+      "section": "3.1",
+      "page_type": "text",
+      "chars": 853
+    },
+    {
+      "page": 232,
+      "printed_page": 224,
+      "section": "3.1",
+      "page_type": "text",
+      "chars": 1197
+    },
+    {
+      "page": 233,
+      "printed_page": 225,
+      "section": "3.1",
+      "page_type": "text",
+      "chars": 1022
+    },
+    {
+      "page": 234,
+      "printed_page": 226,
+      "section": "3.1",
+      "page_type": "text",
+      "chars": 1158
+    },
+    {
+      "page": 235,
+      "printed_page": 227,
+      "section": "3.1",
+      "page_type": "text",
+      "chars": 1299
+    },
+    {
+      "page": 236,
+      "printed_page": 228,
+      "section": "3.1",
+      "page_type": "exercises",
+      "chars": 1588
+    },
+    {
+      "page": 237,
+      "printed_page": 229,
+      "section": "3.1",
+      "page_type": "exercises",
+      "chars": 1093
+    },
+    {
+      "page": 238,
+      "printed_page": 230,
+      "section": "3.1",
+      "page_type": "exercises",
+      "chars": 1756
+    },
+    {
+      "page": 239,
+      "printed_page": 231,
+      "section": "3.1",
+      "page_type": "exercises",
+      "chars": 1653
+    },
+    {
+      "page": 240,
+      "printed_page": 232,
+      "section": "3.2",
+      "page_type": "text",
+      "chars": 1998
+    },
+    {
+      "page": 241,
+      "printed_page": 233,
+      "section": "3.2",
+      "page_type": "text",
+      "chars": 1489
+    },
+    {
+      "page": 242,
+      "printed_page": 234,
+      "section": "3.2",
+      "page_type": "text",
+      "chars": 1787
+    },
+    {
+      "page": 243,
+      "printed_page": 235,
+      "section": "3.2",
+      "page_type": "text",
+      "chars": 727
+    },
+    {
+      "page": 244,
+      "printed_page": 236,
+      "section": "3.2",
+      "page_type": "text",
+      "chars": 643
+    },
+    {
+      "page": 245,
+      "printed_page": 237,
+      "section": "3.2",
+      "page_type": "text",
+      "chars": 1464
+    },
+    {
+      "page": 246,
+      "printed_page": 238,
+      "section": "3.2",
+      "page_type": "text",
+      "chars": 877
+    },
+    {
+      "page": 247,
+      "printed_page": 239,
+      "section": "3.2",
+      "page_type": "text",
+      "chars": 1469
+    },
+    {
+      "page": 248,
+      "printed_page": 240,
+      "section": "3.2",
+      "page_type": "text",
+      "chars": 1186
+    },
+    {
+      "page": 249,
+      "printed_page": 241,
+      "section": "3.2",
+      "page_type": "text",
+      "chars": 1756
+    },
+    {
+      "page": 250,
+      "printed_page": 242,
+      "section": "3.2",
+      "page_type": "text",
+      "chars": 565
+    },
+    {
+      "page": 251,
+      "printed_page": 243,
+      "section": "3.2",
+      "page_type": "exercises",
+      "chars": 379
+    },
+    {
+      "page": 252,
+      "printed_page": 244,
+      "section": "3.2",
+      "page_type": "exercises",
+      "chars": 832
+    },
+    {
+      "page": 253,
+      "printed_page": 245,
+      "section": "3.2",
+      "page_type": "exercises",
+      "chars": 2129
+    },
+    {
+      "page": 254,
+      "printed_page": 246,
+      "section": "3.2",
+      "page_type": "exercises",
+      "chars": 1940
+    }
+  ],
+  "total_chars": 89035,
+  "read_seconds": 1.76,
+  "ingest_log": [],
+  "known_issues": [
+    "pypdf flattens math layout: fractions, exponents and limits lose structure (x2 means x^2).",
+    "Some words are glued together (e.g. 'ofa', 'atb', 'inFigure'); kept as-is, not auto-fixed.",
+    "Figures and graphs are images: only their captions are kept. No OCR was needed (no scanned pages).",
+    "pypdf prints 'Unknown destination' for one outline item; section ranges were still read.",
+    "Page 222 starts with the last lines of the Chapter 3 introduction (kept, section 3.1)."
+  ]
+}

@@ -1,0 +1,21 @@
+position,page,char,strategy,chunk_id,score,reason
+P01,168,876,A,openstax-calc1-p168-fixed-01,1,Bắt đầu giữa từ ("e evaluated") và cắt ở "the l"; ý chính vẫn đọc được
+P01,168,876,B,openstax-calc1-p168-struct-00,2,Trọn tiêu đề mục + mục tiêu + đoạn giới thiệu
+P02,173,552,A,openstax-calc1-p173-fixed-01,0,Bắt đầu giữa công thức Example 2.17 (không có đề) rồi nhảy sang Example 2.18 và bị cắt giữa Step 2
+P02,173,552,B,openstax-calc1-p173-struct-01,1,Bắt đầu ở Step 2 của Example 2.17 nên thiếu đề; cuối chunk chỉ có đề Example 2.18
+P03,178,613,A,openstax-calc1-p178-fixed-01,0,Bắt đầu giữa công thức ("im x → 2−") và trộn Step 3 với phần mở đầu Squeeze Theorem bị cắt
+P03,178,613,B,openstax-calc1-p178-struct-00,1,Trọn các bước của Example 2.23 nhưng đề nằm ở trang 177 (giới hạn chia theo trang)
+P04,183,834,A,openstax-calc1-p183-fixed-01,1,Bắt đầu giữa từ ("his idea"); thiếu câu nói về Archimedes
+P04,183,834,B,openstax-calc1-p183-struct-00,2,Trọn phần giới thiệu project và bước 1
+P05,192,869,A,openstax-calc1-p192-fixed-01,1,Có 3 loại gián đoạn nhưng bắt đầu giữa từ ("ties") và cắt ở "keep in mind that"
+P05,192,869,B,openstax-calc1-p192-struct-01,2,Trọn mục Types of Discontinuities đến câu dẫn vào định nghĩa
+P06,197,484,A,openstax-calc1-p197-fixed-00,1,Có đề Example 2.36 nhưng lời giải bị cắt ở "Note t"
+P06,197,484,B,openstax-calc1-p197-struct-00,2,Trọn đề và lời giải Example 2.36
+P07,225,502,A,openstax-calc1-p225-fixed-01,1,Bắt đầu giữa từ ("ent line"); chỉ có dạng thứ 2 của định nghĩa tiếp tuyến
+P07,225,502,B,openstax-calc1-p225-struct-01,2,Trọn định nghĩa tiếp tuyến với cả 2 công thức 3.3 và 3.4
+P08,231,426,A,openstax-calc1-p231-fixed-00,1,Đề Example 3.7 bị cắt ở "line is"
+P08,231,426,B,openstax-calc1-p231-struct-01,2,Trọn đề Example 3.7; lời giải nằm ở chunk sau nhưng đề tự hiểu được
+P09,240,999,A,openstax-calc1-p240-fixed-02,1,Bắt đầu giữa từ ("g section"); định nghĩa derivative function bị cắt trước công thức
+P09,240,999,B,openstax-calc1-p240-struct-00,2,Trọn tiêu đề mục + mục tiêu + đoạn mở đầu
+P10,245,732,A,openstax-calc1-p245-fixed-01,1,Bắt đầu giữa chứng minh (thiếu giả thiết); kết luận vẫn rõ
+P10,245,732,B,openstax-calc1-p245-struct-01,2,Trọn chứng minh Theorem 3.1 và phần mở đầu ví dụ |x|

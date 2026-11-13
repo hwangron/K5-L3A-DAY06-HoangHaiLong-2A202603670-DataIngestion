@@ -1,0 +1,4 @@
+1) first ingest 3 pages: {'written': 12, 'deleted_obsolete': 0}, rows=12
+2) same ingest again: {'written': 12, 'deleted_obsolete': 0}, rows=12 (no duplicates)
+3) document changed (page 170 removed): {'written': 8, 'deleted_obsolete': 4}, rows=8
+test rows removed: True

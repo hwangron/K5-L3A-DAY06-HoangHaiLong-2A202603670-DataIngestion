@@ -1,0 +1,84 @@
+{
+  "run_at": "2026-11-13T15:42:10+00:00",
+  "split": "test",
+  "model": "text-embedding-3-small",
+  "strategies": {
+    "A": {
+      "dev": {
+        "n": 0,
+        "hit1": 0,
+        "hit3": 0,
+        "filter_questions": 0,
+        "filter_compliant": 0
+      },
+      "test": {
+        "n": 7,
+        "hit1": 4,
+        "hit3": 7,
+        "filter_questions": 2,
+        "filter_compliant": 2
+      },
+      "all": {
+        "n": 7,
+        "hit1": 4,
+        "hit3": 7,
+        "filter_questions": 2,
+        "filter_compliant": 2
+      },
+      "search_seconds": 0.032,
+      "missed": []
+    },
+    "B": {
+      "dev": {
+        "n": 0,
+        "hit1": 0,
+        "hit3": 0,
+        "filter_questions": 0,
+        "filter_compliant": 0
+      },
+      "test": {
+        "n": 7,
+        "hit1": 4,
+        "hit3": 7,
+        "filter_questions": 2,
+        "filter_compliant": 2
+      },
+      "all": {
+        "n": 7,
+        "hit1": 4,
+        "hit3": 7,
+        "filter_questions": 2,
+        "filter_compliant": 2
+      },
+      "search_seconds": 0.026,
+      "missed": []
+    },
+    "C": {
+      "dev": {
+        "n": 0,
+        "hit1": 0,
+        "hit3": 0,
+        "filter_questions": 0,
+        "filter_compliant": 0
+      },
+      "test": {
+        "n": 7,
+        "hit1": 4,
+        "hit3": 7,
+        "filter_questions": 2,
+        "filter_compliant": 2
+      },
+      "all": {
+        "n": 7,
+        "hit1": 4,
+        "hit3": 7,
+        "filter_questions": 2,
+        "filter_compliant": 2
+      },
+      "search_seconds": 0.024,
+      "missed": []
+    }
+  },
+  "query_embedding_tokens": 138,
+  "query_embedding_cost_usd": 3e-06
+}

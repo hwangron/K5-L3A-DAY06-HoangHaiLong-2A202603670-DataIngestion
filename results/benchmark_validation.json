@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-11-13T15:42:08+00:00",
+  "counts": {
+    "total": 25,
+    "dev": 18,
+    "test": 7,
+    "with_filter": 5,
+    "test_with_filter": 2
+  },
+  "problems": []
+}
